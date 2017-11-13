@@ -1,0 +1,45 @@
+.nav{
+  background-color: #006491;
+  height: 100px;
+}
+h1{
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  margin-top: 35px;
+}
+.brand{
+  text-align: center;
+
+}
+.logo{
+  position: absolute;
+  top: 1%;
+  left: 92%;
+  width: 100px;
+  height: 100px;
+}
+.top-brand{
+  text-align: center;
+}
+
+.nav-link{
+  position: absolute;
+  top: 25px;
+  display: flex;
+  flex-direction: flex-start;
+  list-style: none;
+}
+a{
+  color: white;
+}
+.nav-link{
+  height: 20px;
+}
+.promo{
+  background-image: url("../images/pizza-promo.jpg");
+  margin-top: 10%;
+  height: 315px;
+}
+.deals{
+  font-weight: bold;
+}
