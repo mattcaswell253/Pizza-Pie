@@ -32,6 +32,15 @@ h1{
 a{
   color: white;
 }
+.navbar-nav>li>a:hover {
+  border-radius: 10px;
+  background-color: #86c5da;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+  border-radius: 10px;
+  background-color: #86c5da;
+}
+
 .nav-link{
   height: 20px;
 }
