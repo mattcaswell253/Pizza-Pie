@@ -7,9 +7,15 @@ h1{
   color: white;
   margin-top: 35px;
 }
+h3{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+}
 .brand{
   text-align: center;
-
+}
+body{
+  background-color: #F5F6F6;
 }
 .logo{
   position: absolute;
@@ -40,7 +46,6 @@ a{
   border-radius: 10px;
   background-color: #86c5da;
 }
-
 .nav-link{
   height: 20px;
 }
@@ -51,4 +56,122 @@ a{
 }
 .deals{
   font-weight: bold;
+}
+.deal{
+  height: 175px;
+  background-color: white;
+  border: solid grey 1px;
+  border-top: none;
+  margin-left: 15px;
+}
+.deal-row, .promo-row{
+  display: flex;
+  justify-content: space-between;
+}
+.promo-one{
+  height: 200px;
+  margin-left: 15px;
+}
+.order-btn{
+  color: white;
+  background-color: #ff0000;
+}
+.order-btn:hover {
+  color: white;
+  background-color: #cc0000;
+}
+#one {
+  background-image: url("../images/deal-one.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#two{
+  background-image: url("../images/deal-two.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#three{
+  margin-right: 15px;
+  background-image: url("../images/deal-three.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#deal-three{
+  margin-right: 15px;
+}
+#pizza{
+  background-image: url("../images/pizza.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+}
+#wings{
+  background-image: url("../images/wings.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+#sides{
+  background-image: url("../images/sides.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+#pasta{
+  background-image: url("../images/pasta.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+#dessert{
+  background-image: url("../images/dessert.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+#drinks{
+  background-image: url("../images/drinks.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.menu{
+  height: 130px;
+}
+.menu-text{
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.left-caret{
+  font-weight: bold;
+  color: red;
+}
+.foot-deal{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.foots{
+  font-size: 18px;
+  font-weight: bold;
+  color: #0078AE;
+}
+.location{
+  text-align: right;
+}
+.bottom{
+  background-color: #DBDBDB;
+  font-size: 12px;
+  color: grey;
 }
