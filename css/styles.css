@@ -7,6 +7,9 @@ h1{
   color: white;
   margin-top: 35px;
 }
+h2{
+  font-family: 'Libre Baskerville', serif;
+}
 h3{
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
@@ -181,7 +184,6 @@ a{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 .coke{
   height: 100px;
@@ -200,4 +202,50 @@ a{
 .coke-dairy{
   margin-top: 20px;
   margin-bottom: 15px;
+}
+.order {
+  background-color: white;
+  text-align: center;
+  border: solid grey 1px;
+  padding-bottom: 15px;
+}
+.order-row{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.form-control{
+  width: 50%;
+}
+.size{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.cheese-sauce{
+  background-color: white;
+  text-align: center;
+  border: solid grey 1px;
+}
+.top-row{
+  margin-bottom: 20px;
+}
+.price-btn{
+  color: white;
+  width: 50%;
+  border-radius: 20px;
+  background-color: red;
+}
+.price-btn:hover {
+  color: white;
+}
+#total{
+  font-family: 'Libre Baskerville', serif;
+}
+#to{
+  font-family: 'Libre Baskerville', serif;
+}
+.final-cost{
+  margin-top:20px;
 }

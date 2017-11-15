@@ -33,37 +33,76 @@
     <h1 class="brand">Build a Pizza</h1>
     <img class="logo" src="images/pizza-logo.png" alt="logo image">
   </div>
+  <div class="container">
 
-  <form id="set-up-order">
-  <div class="row">
-  <div class="col-md-6">
-  <h2>How big do you like your pie?:</h2>
-  <div class="size">
-  <select id="size" class="form-control">
-  <option value="personal">Personal</option>
-  <option value="schmedium">Schmedium</option>
-  <option value="large">Large</option>
-  <option value="family-size">Family-size</option>
-</select>
-</div>
-</div>
-<div class="col-md-6">
-<div class="form-group">
-<h2>What Kinda Topping You Like?</h2>
-<input type="checkbox" name="toppings" value="pepperoni">Pepperoni.<br>
-<input type="checkbox" name="toppings" value="salami">Salami.<br>
-<input type="checkbox" name="toppings" value="chicken">Chicken.<br>
-<input type="checkbox" name="toppings" value="onions">Onions.<br>
-<input type="checkbox" name="toppings" value="jalepeno">Jalepeno.<br>
-<input type="checkbox" name="toppings" value="red-sauce">Red Sauce.<br>
-<input type="checkbox" name="toppings" value="white-sauce">White Sauce.<br>
-</div>
-</div>
 
-<button type="submit">Order!</button>
-</div>
-</form>
+    <form id="set-up-order">
+      <div class="order-row row">
+        <div class="order col-md-8">
+          <h2>How big do you like your pie?:</h2>
+          <div class="size">
+            <select id="size" class="form-control">
+              <option value="personal">Personal</option>
+              <option value="schmedium">Medium</option>
+              <option value="large">Large</option>
+              <option value="family-size">Family-size</option>
+            </select>
+          </div>
+        </div>
 
-<div class="final-cost">
-<p>Total: <span id="total"></span></p>
-</div>
+      </div>
+
+      <div class="order-row row">
+        <div class="form-group cheese-sauce col-md-8">
+          <div class="top-row row">
+            <div class="toppings col-md-3">
+              <h2>Cheese</h2>
+              <input type="checkbox" name="toppings" value="onions">Mozzarella<br>
+              <input type="checkbox" name="toppings" value="jalepeno">Provolone<br>
+              <input type="checkbox" name="toppings" value="red-sauce">Cheddar<br>
+              <input type="checkbox" name="toppings" value="white-sauce">Colby<br>
+              <input type="checkbox" name="toppings" value="white-sauce">Feta<br>
+
+            </div>
+            <div class="col-md-3">
+              <h2>Meats</h2>
+              <input type="checkbox" name="toppings" value="pepperoni">Pepperoni<br>
+              <input type="checkbox" name="toppings" value="salami">Salami<br>
+              <input type="checkbox" name="toppings" value="chicken">Chicken<br>
+              <input type="checkbox" name="toppings" value="pepperoni">Sausage<br>
+              <input type="checkbox" name="toppings" value="salami">Canadian Bacon<br>
+              <input type="checkbox" name="toppings" value="chicken">Bacon<br>
+            </div>
+            <div class="col-md-3">
+              <h2>Veggies</h2>
+              <input type="checkbox" name="toppings" value="pepperoni">Onions<br>
+              <input type="checkbox" name="toppings" value="salami">Olives<br>
+              <input type="checkbox" name="toppings" value="chicken">Mushrooms<br>
+              <input type="checkbox" name="toppings" value="pepperoni">Jalepeno<br>
+              <input type="checkbox" name="toppings" value="salami">Spinach<br>
+              <input type="checkbox" name="toppings" value="chicken">Artichoke<br>
+            </div>
+            <div class="col-md-3">
+              <h2>Sauce</h2>
+              <input type="checkbox" name="toppings" value="pepperoni">Red Sauce<br>
+              <input type="checkbox" name="toppings" value="salami">White Sauce<br>
+              <input type="checkbox" name="toppings" value="chicken">Pink Sauce<br>
+              <input type="checkbox" name="toppings" value="chicken">Garlic Sauce<br>
+              <input type="checkbox" name="toppings" value="chicken">Ranch Sauce<br>
+            </div>
+          </div>
+          <div class="row">
+
+            <button class="btn price-btn" type="submit">Order!</button>
+            <div class="final-cost">
+
+              <p id="to">Total: <span id="total"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </form>
+
+
+  </div>
